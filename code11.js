@@ -211,7 +211,7 @@ gdjs.PARTE_322_45_45_45TORRECode.GDAdufemini2Objects1= [];
 gdjs.PARTE_322_45_45_45TORRECode.GDAdufemini2Objects2= [];
 
 
-gdjs.PARTE_322_45_45_45TORRECode.asyncCallback26825180 = function (runtimeScene, asyncObjectsList) {
+gdjs.PARTE_322_45_45_45TORRECode.asyncCallback26970964 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.PARTE_322_45_45_45TORRECode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("BOTON"), gdjs.PARTE_322_45_45_45TORRECode.GDBOTONObjects2);
 
@@ -227,7 +227,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("OK"), gdjs.PARTE_322_45_45_45TORRECo
 }
 gdjs.PARTE_322_45_45_45TORRECode.localVariables.length = 0;
 }
-gdjs.PARTE_322_45_45_45TORRECode.idToCallbackMap.set(26825180, gdjs.PARTE_322_45_45_45TORRECode.asyncCallback26825180);
+gdjs.PARTE_322_45_45_45TORRECode.idToCallbackMap.set(26970964, gdjs.PARTE_322_45_45_45TORRECode.asyncCallback26970964);
 gdjs.PARTE_322_45_45_45TORRECode.eventsList0 = function(runtimeScene) {
 
 {
@@ -239,7 +239,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.PARTE_322_45_45_45TORRECode.localVariables);
 for (const obj of gdjs.PARTE_322_45_45_45TORRECode.GDBOTONObjects1) asyncObjectsList.addObject("BOTON", obj);
 for (const obj of gdjs.PARTE_322_45_45_45TORRECode.GDOKObjects1) asyncObjectsList.addObject("OK", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.PARTE_322_45_45_45TORRECode.asyncCallback26825180(runtimeScene, asyncObjectsList)), 26825180, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.PARTE_322_45_45_45TORRECode.asyncCallback26970964(runtimeScene, asyncObjectsList)), 26970964, asyncObjectsList);
 }
 }
 

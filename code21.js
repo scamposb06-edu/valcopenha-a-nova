@@ -205,7 +205,7 @@ gdjs.CINEMATICAFINJUEGOCode.GDAdufemini2Objects1= [];
 gdjs.CINEMATICAFINJUEGOCode.GDAdufemini2Objects2= [];
 
 
-gdjs.CINEMATICAFINJUEGOCode.asyncCallback27893268 = function (runtimeScene, asyncObjectsList) {
+gdjs.CINEMATICAFINJUEGOCode.asyncCallback28039308 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.CINEMATICAFINJUEGOCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("VOLVER_AL_MENU"), gdjs.CINEMATICAFINJUEGOCode.GDVOLVER_9595AL_9595MENUObjects2);
 {for(var i = 0, len = gdjs.CINEMATICAFINJUEGOCode.GDVOLVER_9595AL_9595MENUObjects2.length ;i < len;++i) {
@@ -214,7 +214,7 @@ gdjs.copyArray(runtimeScene.getObjects("VOLVER_AL_MENU"), gdjs.CINEMATICAFINJUEG
 }
 gdjs.CINEMATICAFINJUEGOCode.localVariables.length = 0;
 }
-gdjs.CINEMATICAFINJUEGOCode.idToCallbackMap.set(27893268, gdjs.CINEMATICAFINJUEGOCode.asyncCallback27893268);
+gdjs.CINEMATICAFINJUEGOCode.idToCallbackMap.set(28039308, gdjs.CINEMATICAFINJUEGOCode.asyncCallback28039308);
 gdjs.CINEMATICAFINJUEGOCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -224,7 +224,7 @@ gdjs.CINEMATICAFINJUEGOCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.CINEMATICAFINJUEGOCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(35), (runtimeScene) => (gdjs.CINEMATICAFINJUEGOCode.asyncCallback27893268(runtimeScene, asyncObjectsList)), 27893268, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(35), (runtimeScene) => (gdjs.CINEMATICAFINJUEGOCode.asyncCallback28039308(runtimeScene, asyncObjectsList)), 28039308, asyncObjectsList);
 }
 }
 

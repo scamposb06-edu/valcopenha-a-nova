@@ -226,13 +226,13 @@ if (isConditionTrue_0) {
 
 };gdjs.MENU_32SALIRCode.mapOfGDgdjs_9546MENU_959532SALIRCode_9546GDCONTINUARObjects1Objects = Hashtable.newFrom({"CONTINUAR": gdjs.MENU_32SALIRCode.GDCONTINUARObjects1});
 gdjs.MENU_32SALIRCode.mapOfGDgdjs_9546MENU_959532SALIRCode_9546GDSALIRObjects1Objects = Hashtable.newFrom({"SALIR": gdjs.MENU_32SALIRCode.GDSALIRObjects1});
-gdjs.MENU_32SALIRCode.asyncCallback26475876 = function (runtimeScene, asyncObjectsList) {
+gdjs.MENU_32SALIRCode.asyncCallback26682084 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.MENU_32SALIRCode.localVariables);
 {gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
 }
 gdjs.MENU_32SALIRCode.localVariables.length = 0;
 }
-gdjs.MENU_32SALIRCode.idToCallbackMap.set(26475876, gdjs.MENU_32SALIRCode.asyncCallback26475876);
+gdjs.MENU_32SALIRCode.idToCallbackMap.set(26682084, gdjs.MENU_32SALIRCode.asyncCallback26682084);
 gdjs.MENU_32SALIRCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -242,7 +242,7 @@ gdjs.MENU_32SALIRCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.MENU_32SALIRCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.7), (runtimeScene) => (gdjs.MENU_32SALIRCode.asyncCallback26475876(runtimeScene, asyncObjectsList)), 26475876, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.7), (runtimeScene) => (gdjs.MENU_32SALIRCode.asyncCallback26682084(runtimeScene, asyncObjectsList)), 26682084, asyncObjectsList);
 }
 }
 

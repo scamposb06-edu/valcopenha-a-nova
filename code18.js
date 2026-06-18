@@ -880,7 +880,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27599884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27745716);
 }
 }
 }
@@ -911,7 +911,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27523828);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27743148);
 }
 }
 }
@@ -942,7 +942,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27603260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27748844);
 }
 }
 }
@@ -973,7 +973,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27589940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27745972);
 }
 }
 }
@@ -1004,7 +1004,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27600284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27746196);
 }
 }
 }
@@ -1025,7 +1025,7 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects1.length = 0;
 
 };gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDTELONMUSICAObjects1Objects = Hashtable.newFrom({"TELONMUSICA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDTELONMUSICAObjects1});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDFONDOTEXTOObjects2Objects = Hashtable.newFrom({"FONDOTEXTO": gdjs.Nivel09_45PLANTA_32MUSICACode.GDFONDOTEXTOObjects2});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27605020 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27718908 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("BOTON"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDBOTONObjects4);
 
@@ -1045,7 +1045,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("BOTON"), gdjs.Nivel09_45PLANTA_32MUS
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27605020, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27605020);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27718908, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27718908);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList2 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -1057,14 +1057,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 /* Don't save BOTON as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27605020(runtimeScene, asyncObjectsList)), 27605020, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27718908(runtimeScene, asyncObjectsList)), 27718908, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27604876 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27718572 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("FONDOTEXTO"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDFONDOTEXTOObjects3);
 
@@ -1083,7 +1083,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewText"), gdjs.Nivel09_45PLANTA_32M
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList2(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27604876, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27604876);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27718572, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27718572);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList3 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -1097,14 +1097,14 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACo
 /* Don't save BOTON as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDFONDOTEXTOObjects2) asyncObjectsList.addObject("FONDOTEXTO", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDNewTextObjects2) asyncObjectsList.addObject("NewText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(13), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27604876(runtimeScene, asyncObjectsList)), 27604876, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(13), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27718572(runtimeScene, asyncObjectsList)), 27718572, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27606084 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27717508 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("NewText"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDNewTextObjects2);
 
@@ -1129,7 +1129,7 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.GDFONDOTEXTOObjects2.length = 0;
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList3(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27606084, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27606084);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27717508, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27717508);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList4 = function(runtimeScene) {
 
 {
@@ -1141,7 +1141,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDBOTONObjects1) asyncObjectsList.addObject("BOTON", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDNewTextObjects1) asyncObjectsList.addObject("NewText", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27606084(runtimeScene, asyncObjectsList)), 27606084, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27717508(runtimeScene, asyncObjectsList)), 27717508, asyncObjectsList);
 }
 }
 
@@ -1154,13 +1154,13 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MU
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDASCENSORObjects2Objects = Hashtable.newFrom({"ASCENSOR": gdjs.Nivel09_45PLANTA_32MUSICACode.GDASCENSORObjects2});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDFocos_959595952Objects2Objects = Hashtable.newFrom({"Focos_2": gdjs.Nivel09_45PLANTA_32MUSICACode.GDFocos_95952Objects2});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDFOCOS_959595951Objects3Objects = Hashtable.newFrom({"FOCOS_1": gdjs.Nivel09_45PLANTA_32MUSICACode.GDFOCOS_95951Objects3});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27582892 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27727076 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(1);
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27582892, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27582892);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27727076, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27727076);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList5 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -1171,14 +1171,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27582892(runtimeScene, asyncObjectsList)), 27582892, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27727076(runtimeScene, asyncObjectsList)), 27727076, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27580660 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27724844 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.Nivel09_45PLANTA_32MUSICACode.GDFOCOS_95951Objects3.length = 0;
 
@@ -1195,7 +1195,7 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.GDFOCOS_95951Objects3.length = 0;
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList5(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27580660, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27580660);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27724844, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27724844);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList6 = function(runtimeScene) {
 
 {
@@ -1205,7 +1205,7 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList6 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27580660(runtimeScene, asyncObjectsList)), 27580660, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27724844(runtimeScene, asyncObjectsList)), 27724844, asyncObjectsList);
 }
 }
 
@@ -1213,11 +1213,11 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3.5)
 
 
 };gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDACTIVARObjects2Objects = Hashtable.newFrom({"ACTIVAR": gdjs.Nivel09_45PLANTA_32MUSICACode.GDACTIVARObjects2});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27588636 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27732820 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27588636, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27588636);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27732820, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27732820);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList7 = function(runtimeScene) {
 
 {
@@ -1227,7 +1227,7 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList7 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27588636(runtimeScene, asyncObjectsList)), 27588636, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27732820(runtimeScene, asyncObjectsList)), 27732820, asyncObjectsList);
 }
 }
 
@@ -1263,7 +1263,7 @@ for (var i = 0, k = 0, l = gdjs.Nivel09_45PLANTA_32MUSICACode.GDBOTONObjects2.le
 gdjs.Nivel09_45PLANTA_32MUSICACode.GDBOTONObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27578060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27722340);
 }
 }
 }
@@ -1452,7 +1452,7 @@ for (var i = 0, k = 0, l = gdjs.Nivel09_45PLANTA_32MUSICACode.GDaccionador_9595s
 gdjs.Nivel09_45PLANTA_32MUSICACode.GDaccionador_9595sonido_9595cadenasObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27586780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27730964);
 }
 }
 if (isConditionTrue_0) {
@@ -1501,7 +1501,7 @@ for (var i = 0, k = 0, l = gdjs.Nivel09_45PLANTA_32MUSICACode.GDFONDO_9595INFINI
 gdjs.Nivel09_45PLANTA_32MUSICACode.GDFONDO_9595INFINITOObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27589308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27733492);
 }
 }
 if (isConditionTrue_0) {
@@ -1797,7 +1797,7 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MU
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCOGER_95959595INSTRUMENTOS1Objects2Objects = Hashtable.newFrom({"COGER_INSTRUMENTOS1": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCOGER_9595INSTRUMENTOS1Objects2});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects1Objects = Hashtable.newFrom({"VALVERDE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects1, "PORTUGAL": gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects1, "CORIA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects1, "CILLEROS": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects1});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS1Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTO3Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS9Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS10Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS11Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS13Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS8Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS7Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS6Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS5Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS4Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS2Objects1Objects = Hashtable.newFrom({"EVITADOS_INSTRUMENTOS1": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS1Objects1, "EVITADOS_INSTRUMENTO3": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTO3Objects1, "EVITADOS_INSTRUMENTOS9": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS9Objects1, "EVITADOS_INSTRUMENTOS10": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS10Objects1, "EVITADOS_INSTRUMENTOS11": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS11Objects1, "EVITADOS_INSTRUMENTOS13": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS13Objects1, "EVITADOS_INSTRUMENTOS8": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS8Objects1, "EVITADOS_INSTRUMENTOS7": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS7Objects1, "EVITADOS_INSTRUMENTOS6": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS6Objects1, "EVITADOS_INSTRUMENTOS5": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS5Objects1, "EVITADOS_INSTRUMENTOS4": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS4Objects1, "EVITADOS_INSTRUMENTOS2": gdjs.Nivel09_45PLANTA_32MUSICACode.GDEVITADOS_9595INSTRUMENTOS2Objects1});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27614212 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27760260 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4);
 
@@ -1822,7 +1822,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4.lengt
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27614212, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27614212);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27760260, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27760260);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList10 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -1837,14 +1837,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects3) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects3) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects3) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27614212(runtimeScene, asyncObjectsList)), 27614212, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27760260(runtimeScene, asyncObjectsList)), 27760260, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27613884 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27759932 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3);
 
@@ -1872,7 +1872,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList10(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27613884, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27613884);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27759932, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27759932);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList11 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -1887,14 +1887,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27613884(runtimeScene, asyncObjectsList)), 27613884, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27759932(runtimeScene, asyncObjectsList)), 27759932, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27613292 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27759340 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2);
 
@@ -1922,7 +1922,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList11(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27613292, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27613292);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27759340, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27759340);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList12 = function(runtimeScene) {
 
 {
@@ -1936,7 +1936,7 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects1) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects1) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects1) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects1) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27613292(runtimeScene, asyncObjectsList)), 27613292, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27759340(runtimeScene, asyncObjectsList)), 27759340, asyncObjectsList);
 }
 }
 
@@ -1958,7 +1958,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCOGER_95959595INSTRUMENTOS3Objects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27607716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27753820);
 }
 }
 if (isConditionTrue_0) {
@@ -1989,7 +1989,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCOGER_95959595INSTRUMENTOS2Objects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27608732);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27754780);
 }
 }
 if (isConditionTrue_0) {
@@ -2020,7 +2020,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCOGER_95959595INSTRUMENTOS4Objects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27609972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27756020);
 }
 }
 if (isConditionTrue_0) {
@@ -2051,7 +2051,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCOGER_95959595INSTRUMENTOS1Objects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27611340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27757388);
 }
 }
 if (isConditionTrue_0) {
@@ -2093,7 +2093,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects1Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS1Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTO3Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS9Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS10Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS11Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS13Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS8Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS7Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS6Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS5Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS4Objects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDEVITADOS_95959595INSTRUMENTOS2Objects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27613084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27759132);
 }
 }
 if (isConditionTrue_0) {
@@ -2136,13 +2136,13 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MU
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDpuerta_95959595final_95959595biblioObjects2Objects = Hashtable.newFrom({"puerta_final_biblio": gdjs.Nivel09_45PLANTA_32MUSICACode.GDpuerta_9595final_9595biblioObjects2});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects1Objects = Hashtable.newFrom({"VALVERDE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects1, "PORTUGAL": gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects1, "CORIA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects1, "CILLEROS": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects1});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDpuerta_95959595final_95959595biblioObjects1Objects = Hashtable.newFrom({"puerta_final_biblio": gdjs.Nivel09_45PLANTA_32MUSICACode.GDpuerta_9595final_9595biblioObjects1});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27624308 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27770356 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Nivel10-Torre4", false);
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27624308, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27624308);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27770356, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27770356);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList14 = function(runtimeScene) {
 
 {
@@ -2152,7 +2152,7 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList14 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27624308(runtimeScene, asyncObjectsList)), 27624308, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27770356(runtimeScene, asyncObjectsList)), 27770356, asyncObjectsList);
 }
 }
 
@@ -2182,7 +2182,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27616116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27762164);
 }
 }
 }
@@ -2353,7 +2353,7 @@ for (var i = 0, k = 0, l = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2
 gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27620580);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27766628);
 }
 }
 }
@@ -2381,7 +2381,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.platform.isOnPlatform(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, "PlatformerObject", gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDMarcadortechomusicaObjects2Objects, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27622052);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27768100);
 }
 }
 if (isConditionTrue_0) {
@@ -2416,7 +2416,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects1Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDpuerta_95959595final_95959595biblioObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27623420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27769468);
 }
 }
 if (isConditionTrue_0) {
@@ -2454,7 +2454,7 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList14(runtimeScene);} //End of subeven
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27627852 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27773900 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects6);
 
@@ -2479,7 +2479,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects6.lengt
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27627852, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27627852);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27773900, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27773900);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList16 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -2494,14 +2494,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects5) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects5) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects5) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27627852(runtimeScene, asyncObjectsList)), 27627852, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27773900(runtimeScene, asyncObjectsList)), 27773900, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27627500 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27773548 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5);
 
@@ -2529,7 +2529,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList16(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27627500, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27627500);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27773548, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27773548);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList17 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -2544,14 +2544,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects4) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects4) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects4) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27627500(runtimeScene, asyncObjectsList)), 27627500, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27773548(runtimeScene, asyncObjectsList)), 27773548, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27626732 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27772780 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4);
 
@@ -2579,7 +2579,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList17(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27626732, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27626732);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27772780, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27772780);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList18 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -2594,14 +2594,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects3) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects3) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects3) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27626732(runtimeScene, asyncObjectsList)), 27626732, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27772780(runtimeScene, asyncObjectsList)), 27772780, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27626972 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27773020 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3);
 
@@ -2629,7 +2629,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList18(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27626972, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27626972);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27773020, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27773020);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList19 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -2644,14 +2644,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27626972(runtimeScene, asyncObjectsList)), 27626972, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27773020(runtimeScene, asyncObjectsList)), 27773020, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27626636 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27772684 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2);
 
@@ -2680,7 +2680,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList19(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27626636, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27626636);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27772684, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27772684);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList20 = function(runtimeScene) {
 
 {
@@ -2694,7 +2694,7 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects1) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects1) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects1) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects1) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27626636(runtimeScene, asyncObjectsList)), 27626636, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27772684(runtimeScene, asyncObjectsList)), 27772684, asyncObjectsList);
 }
 }
 
@@ -2708,7 +2708,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27626068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27772116);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "caida2.mp3", false, 30, 1);
@@ -2740,7 +2740,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.platform.isOnPlatform(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, "PlatformerObject", gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDSETAObjects2Objects, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27853508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28001052);
 }
 }
 if (isConditionTrue_0) {
@@ -3205,7 +3205,7 @@ gdjs.copyArray(runtimeScene.getObjects("Texto_Vida"), gdjs.Nivel09_45PLANTA_32MU
 
 };gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects = Hashtable.newFrom({"VALVERDE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2, "PORTUGAL": gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2, "CORIA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2, "CILLEROS": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDZarzaObjects2Objects = Hashtable.newFrom({"Zarza": gdjs.Nivel09_45PLANTA_32MUSICACode.GDZarzaObjects2});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27908988 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28077316 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5);
 
@@ -3230,7 +3230,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5.lengt
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27908988, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27908988);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28077316, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28077316);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList25 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3245,14 +3245,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects4) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects4) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects4) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27908988(runtimeScene, asyncObjectsList)), 27908988, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28077316(runtimeScene, asyncObjectsList)), 28077316, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27908724 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28077100 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4);
 
@@ -3280,7 +3280,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList25(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27908724, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27908724);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28077100, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28077100);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList26 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3295,14 +3295,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects3) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects3) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects3) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27908724(runtimeScene, asyncObjectsList)), 27908724, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28077100(runtimeScene, asyncObjectsList)), 28077100, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27907860 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28076660 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3);
 
@@ -3330,7 +3330,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList26(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27907860, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27907860);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28076660, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28076660);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList27 = function(runtimeScene) {
 
 {
@@ -3344,7 +3344,7 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27907860(runtimeScene, asyncObjectsList)), 27907860, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28076660(runtimeScene, asyncObjectsList)), 28076660, asyncObjectsList);
 }
 }
 
@@ -3353,7 +3353,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 };gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects = Hashtable.newFrom({"VALVERDE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2, "PORTUGAL": gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2, "CORIA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2, "CILLEROS": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDBibliotecarioObjects2Objects = Hashtable.newFrom({"Bibliotecario": gdjs.Nivel09_45PLANTA_32MUSICACode.GDBibliotecarioObjects2});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27911540 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28079868 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5);
 
@@ -3378,7 +3378,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5.lengt
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27911540, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27911540);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28079868, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28079868);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList28 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3393,14 +3393,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects4) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects4) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects4) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27911540(runtimeScene, asyncObjectsList)), 27911540, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28079868(runtimeScene, asyncObjectsList)), 28079868, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27911188 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28079516 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4);
 
@@ -3428,7 +3428,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList28(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27911188, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27911188);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28079516, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28079516);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList29 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3443,14 +3443,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects3) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects3) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects3) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27911188(runtimeScene, asyncObjectsList)), 27911188, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28079516(runtimeScene, asyncObjectsList)), 28079516, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27910836 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28079164 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3);
 
@@ -3478,7 +3478,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList29(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27910836, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27910836);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28079164, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28079164);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList30 = function(runtimeScene) {
 
 {
@@ -3492,7 +3492,7 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27910836(runtimeScene, asyncObjectsList)), 27910836, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28079164(runtimeScene, asyncObjectsList)), 28079164, asyncObjectsList);
 }
 }
 
@@ -3501,7 +3501,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 };gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects = Hashtable.newFrom({"VALVERDE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2, "PORTUGAL": gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2, "CORIA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2, "CILLEROS": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDBibliotecariaObjects2Objects = Hashtable.newFrom({"Bibliotecaria": gdjs.Nivel09_45PLANTA_32MUSICACode.GDBibliotecariaObjects2});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27913844 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28082172 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5);
 
@@ -3526,7 +3526,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5.lengt
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27913844, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27913844);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28082172, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28082172);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList31 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3541,14 +3541,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects4) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects4) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects4) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27913844(runtimeScene, asyncObjectsList)), 27913844, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28082172(runtimeScene, asyncObjectsList)), 28082172, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27913492 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28081820 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4);
 
@@ -3576,7 +3576,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList31(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27913492, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27913492);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28081820, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28081820);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList32 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3591,14 +3591,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects3) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects3) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects3) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27913492(runtimeScene, asyncObjectsList)), 27913492, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28081820(runtimeScene, asyncObjectsList)), 28081820, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27913140 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28081468 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3);
 
@@ -3626,7 +3626,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList32(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27913140, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27913140);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28081468, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28081468);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList33 = function(runtimeScene) {
 
 {
@@ -3640,7 +3640,7 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27913140(runtimeScene, asyncObjectsList)), 27913140, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28081468(runtimeScene, asyncObjectsList)), 28081468, asyncObjectsList);
 }
 }
 
@@ -3649,7 +3649,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 };gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects = Hashtable.newFrom({"VALVERDE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2, "PORTUGAL": gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2, "CORIA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2, "CILLEROS": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCOCINEROObjects2Objects = Hashtable.newFrom({"COCINERO": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCOCINEROObjects2});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27916620 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28084948 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5);
 
@@ -3674,7 +3674,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5.lengt
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27916620, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27916620);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28084948, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28084948);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList34 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3689,14 +3689,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects4) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects4) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects4) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27916620(runtimeScene, asyncObjectsList)), 27916620, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28084948(runtimeScene, asyncObjectsList)), 28084948, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27916548 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28084876 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4);
 
@@ -3724,7 +3724,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList34(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27916548, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27916548);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28084876, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28084876);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList35 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3739,14 +3739,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects3) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects3) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects3) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27916548(runtimeScene, asyncObjectsList)), 27916548, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28084876(runtimeScene, asyncObjectsList)), 28084876, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27916284 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28084612 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3);
 
@@ -3774,7 +3774,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList35(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27916284, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27916284);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28084612, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28084612);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList36 = function(runtimeScene) {
 
 {
@@ -3788,7 +3788,7 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27916284(runtimeScene, asyncObjectsList)), 27916284, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28084612(runtimeScene, asyncObjectsList)), 28084612, asyncObjectsList);
 }
 }
 
@@ -3797,7 +3797,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 };gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects = Hashtable.newFrom({"VALVERDE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2, "PORTUGAL": gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2, "CORIA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2, "CILLEROS": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCOCINERAObjects2Objects = Hashtable.newFrom({"COCINERA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCOCINERAObjects2});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27919116 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28087444 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5);
 
@@ -3822,7 +3822,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects5.lengt
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27919116, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27919116);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28087444, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28087444);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList37 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3837,14 +3837,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects4) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects4) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects4) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27919116(runtimeScene, asyncObjectsList)), 27919116, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28087444(runtimeScene, asyncObjectsList)), 28087444, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27918796 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28087124 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4);
 
@@ -3872,7 +3872,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList37(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27918796, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27918796);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28087124, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28087124);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList38 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3887,14 +3887,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects3) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects3) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects3) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27918796(runtimeScene, asyncObjectsList)), 27918796, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28087124(runtimeScene, asyncObjectsList)), 28087124, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27918412 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28086740 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3);
 
@@ -3922,7 +3922,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList38(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27918412, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27918412);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28086740, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28086740);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList39 = function(runtimeScene) {
 
 {
@@ -3936,7 +3936,7 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27918412(runtimeScene, asyncObjectsList)), 27918412, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28086740(runtimeScene, asyncObjectsList)), 28086740, asyncObjectsList);
 }
 }
 
@@ -3945,7 +3945,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 };gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects1ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects1Objects = Hashtable.newFrom({"VALVERDE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects1, "PORTUGAL": gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects1, "CORIA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects1, "CILLEROS": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects1});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDFUEGOTEObjects1Objects = Hashtable.newFrom({"FUEGOTE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDFUEGOTEObjects1});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27922188 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28090516 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4);
 
@@ -3970,7 +3970,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects4.lengt
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27922188, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27922188);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28090516, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28090516);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList40 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3985,14 +3985,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects3) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects3) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects3) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27922188(runtimeScene, asyncObjectsList)), 27922188, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28090516(runtimeScene, asyncObjectsList)), 28090516, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27922260 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28090588 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3);
 
@@ -4020,7 +4020,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects3.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList40(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27922260, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27922260);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28090588, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28090588);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList41 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -4035,14 +4035,14 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27922260(runtimeScene, asyncObjectsList)), 27922260, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28090588(runtimeScene, asyncObjectsList)), 28090588, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27921852 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28090180 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("CILLEROS"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2);
 
@@ -4070,7 +4070,7 @@ for(var i = 0, len = gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2.lengt
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList41(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27921852, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27921852);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28090180, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28090180);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList42 = function(runtimeScene) {
 
 {
@@ -4084,7 +4084,7 @@ for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects1) asyncOb
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects1) asyncObjectsList.addObject("CORIA", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects1) asyncObjectsList.addObject("PORTUGAL", obj);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects1) asyncObjectsList.addObject("VALVERDE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27921852(runtimeScene, asyncObjectsList)), 27921852, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28090180(runtimeScene, asyncObjectsList)), 28090180, asyncObjectsList);
 }
 }
 
@@ -4160,7 +4160,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDBibliotecarioObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27909940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28078268);
 }
 }
 if (isConditionTrue_0) {
@@ -4217,7 +4217,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDBibliotecariaObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27912268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28080596);
 }
 }
 if (isConditionTrue_0) {
@@ -4274,7 +4274,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCOCINEROObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27914788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28083116);
 }
 }
 if (isConditionTrue_0) {
@@ -4333,7 +4333,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCOCINERAObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27917548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28085876);
 }
 }
 if (isConditionTrue_0) {
@@ -4436,7 +4436,7 @@ for (var i = 0, k = 0, l = gdjs.Nivel09_45PLANTA_32MUSICACode.GDFUEGOTEObjects1.
 gdjs.Nivel09_45PLANTA_32MUSICACode.GDFUEGOTEObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27920716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28089044);
 }
 }
 }
@@ -4499,7 +4499,7 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList42(runtimeScene);} //End of subeven
 
 };gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects = Hashtable.newFrom({"VALVERDE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDVALVERDEObjects2, "PORTUGAL": gdjs.Nivel09_45PLANTA_32MUSICACode.GDPORTUGALObjects2, "CORIA": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCORIAObjects2, "CILLEROS": gdjs.Nivel09_45PLANTA_32MUSICACode.GDCILLEROSObjects2});
 gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDFUEGOTEObjects2Objects = Hashtable.newFrom({"FUEGOTE": gdjs.Nivel09_45PLANTA_32MUSICACode.GDFUEGOTEObjects2});
-gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27925676 = function (runtimeScene, asyncObjectsList) {
+gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28094004 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("FUEGOTE"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDFUEGOTEObjects3);
 
@@ -4509,7 +4509,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("FUEGOTE"), gdjs.Nivel09_45PLANTA_32M
 }
 gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables.length = 0;
 }
-gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(27925676, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27925676);
+gdjs.Nivel09_45PLANTA_32MUSICACode.idToCallbackMap.set(28094004, gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28094004);
 gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList44 = function(runtimeScene) {
 
 {
@@ -4520,7 +4520,7 @@ gdjs.Nivel09_45PLANTA_32MUSICACode.eventsList44 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Nivel09_45PLANTA_32MUSICACode.localVariables);
 for (const obj of gdjs.Nivel09_45PLANTA_32MUSICACode.GDFUEGOTEObjects2) asyncObjectsList.addObject("FUEGOTE", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback27925676(runtimeScene, asyncObjectsList)), 27925676, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Nivel09_45PLANTA_32MUSICACode.asyncCallback28094004(runtimeScene, asyncObjectsList)), 28094004, asyncObjectsList);
 }
 }
 
@@ -4723,7 +4723,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDLibroPuntoObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27927628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28095956);
 }
 }
 if (isConditionTrue_0) {
@@ -4754,7 +4754,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDGemaObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27929076);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28097404);
 }
 }
 if (isConditionTrue_0) {
@@ -4785,7 +4785,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDVALVERDEObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDPORTUGALObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCORIAObjects2ObjectsGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDCILLEROSObjects2Objects, gdjs.Nivel09_45PLANTA_32MUSICACode.mapOfGDgdjs_9546Nivel09_959545PLANTA_959532MUSICACode_9546GDManzana_95959595puntoObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27930348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28098676);
 }
 }
 if (isConditionTrue_0) {
@@ -5141,7 +5141,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27987900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28156228);
 }
 }
 }
@@ -5160,7 +5160,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27988780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28157108);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("ABAJO"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDABAJOObjects1);
@@ -5514,7 +5514,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28001468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28169796);
 }
 }
 if (isConditionTrue_0) {
@@ -5562,7 +5562,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28002604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28170932);
 }
 }
 if (isConditionTrue_0) {
@@ -5692,7 +5692,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27987901);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28156229);
 }
 }
 }
@@ -5711,7 +5711,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27988781);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28157109);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("ABAJO"), gdjs.Nivel09_45PLANTA_32MUSICACode.GDABAJOObjects1);
@@ -6065,7 +6065,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28001469);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28169797);
 }
 }
 if (isConditionTrue_0) {
@@ -6113,7 +6113,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28002605);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28170933);
 }
 }
 if (isConditionTrue_0) {

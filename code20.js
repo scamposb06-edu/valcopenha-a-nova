@@ -326,7 +326,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27866868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28012908);
 }
 }
 }
@@ -357,7 +357,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27868468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28014508);
 }
 }
 }
@@ -389,7 +389,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27869964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28016004);
 }
 }
 }
@@ -420,7 +420,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27867940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28013980);
 }
 }
 }
@@ -451,7 +451,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27872676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28018716);
 }
 }
 }
@@ -470,13 +470,13 @@ gdjs.copyArray(runtimeScene.getObjects("Valverde_final"), gdjs.CINEMATICA2Code.G
 }
 
 
-};gdjs.CINEMATICA2Code.asyncCallback27871884 = function (runtimeScene, asyncObjectsList) {
+};gdjs.CINEMATICA2Code.asyncCallback28017924 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.CINEMATICA2Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "CINEMATICAFINJUEGO", false);
 }
 gdjs.CINEMATICA2Code.localVariables.length = 0;
 }
-gdjs.CINEMATICA2Code.idToCallbackMap.set(27871884, gdjs.CINEMATICA2Code.asyncCallback27871884);
+gdjs.CINEMATICA2Code.idToCallbackMap.set(28017924, gdjs.CINEMATICA2Code.asyncCallback28017924);
 gdjs.CINEMATICA2Code.eventsList1 = function(runtimeScene) {
 
 {
@@ -486,7 +486,7 @@ gdjs.CINEMATICA2Code.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.CINEMATICA2Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(6.5), (runtimeScene) => (gdjs.CINEMATICA2Code.asyncCallback27871884(runtimeScene, asyncObjectsList)), 27871884, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(6.5), (runtimeScene) => (gdjs.CINEMATICA2Code.asyncCallback28017924(runtimeScene, asyncObjectsList)), 28017924, asyncObjectsList);
 }
 }
 

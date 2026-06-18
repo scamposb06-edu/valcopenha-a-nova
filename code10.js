@@ -203,13 +203,13 @@ gdjs.CINEMATICA_321Code.GDAdufemini2Objects1= [];
 gdjs.CINEMATICA_321Code.GDAdufemini2Objects2= [];
 
 
-gdjs.CINEMATICA_321Code.asyncCallback26806876 = function (runtimeScene, asyncObjectsList) {
+gdjs.CINEMATICA_321Code.asyncCallback26954012 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.CINEMATICA_321Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "PARTE 2---TORRE", false);
 }
 gdjs.CINEMATICA_321Code.localVariables.length = 0;
 }
-gdjs.CINEMATICA_321Code.idToCallbackMap.set(26806876, gdjs.CINEMATICA_321Code.asyncCallback26806876);
+gdjs.CINEMATICA_321Code.idToCallbackMap.set(26954012, gdjs.CINEMATICA_321Code.asyncCallback26954012);
 gdjs.CINEMATICA_321Code.eventsList0 = function(runtimeScene) {
 
 {
@@ -219,7 +219,7 @@ gdjs.CINEMATICA_321Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.CINEMATICA_321Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(20), (runtimeScene) => (gdjs.CINEMATICA_321Code.asyncCallback26806876(runtimeScene, asyncObjectsList)), 26806876, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(20), (runtimeScene) => (gdjs.CINEMATICA_321Code.asyncCallback26954012(runtimeScene, asyncObjectsList)), 26954012, asyncObjectsList);
 }
 }
 

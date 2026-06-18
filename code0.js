@@ -204,7 +204,7 @@ gdjs.JUGARCode.GDAdufemini2Objects2= [];
 
 
 gdjs.JUGARCode.mapOfGDgdjs_9546JUGARCode_9546GDNotJamThirdDimension15Objects1Objects = Hashtable.newFrom({"NotJamThirdDimension15": gdjs.JUGARCode.GDNotJamThirdDimension15Objects1});
-gdjs.JUGARCode.asyncCallback30084396 = function (runtimeScene, asyncObjectsList) {
+gdjs.JUGARCode.asyncCallback26380036 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.JUGARCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MENU PRINCIPAL", false);
 }
@@ -212,7 +212,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.JUGARCode.localVariables);
 }
 gdjs.JUGARCode.localVariables.length = 0;
 }
-gdjs.JUGARCode.idToCallbackMap.set(30084396, gdjs.JUGARCode.asyncCallback30084396);
+gdjs.JUGARCode.idToCallbackMap.set(26380036, gdjs.JUGARCode.asyncCallback26380036);
 gdjs.JUGARCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -222,32 +222,7 @@ gdjs.JUGARCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.JUGARCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.7), (runtimeScene) => (gdjs.JUGARCode.asyncCallback30084396(runtimeScene, asyncObjectsList)), 30084396, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.JUGARCode.asyncCallback24758428 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.JUGARCode.localVariables);
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MENU PRINCIPAL", false);
-}
-{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
-}
-gdjs.JUGARCode.localVariables.length = 0;
-}
-gdjs.JUGARCode.idToCallbackMap.set(24758428, gdjs.JUGARCode.asyncCallback24758428);
-gdjs.JUGARCode.eventsList1 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.JUGARCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.7), (runtimeScene) => (gdjs.JUGARCode.asyncCallback24758428(runtimeScene, asyncObjectsList)), 24758428, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.7), (runtimeScene) => (gdjs.JUGARCode.asyncCallback26380036(runtimeScene, asyncObjectsList)), 26380036, asyncObjectsList);
 }
 }
 
@@ -255,7 +230,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.7)
 
 
 };gdjs.JUGARCode.mapOfGDgdjs_9546JUGARCode_9546GDNotJamThirdDimension15Objects1Objects = Hashtable.newFrom({"NotJamThirdDimension15": gdjs.JUGARCode.GDNotJamThirdDimension15Objects1});
-gdjs.JUGARCode.eventsList2 = function(runtimeScene) {
+gdjs.JUGARCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -321,16 +296,14 @@ gdjs.JUGARCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.anyKeyReleased(runtimeScene);
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("NotJamThirdDimension15"), gdjs.JUGARCode.GDNotJamThirdDimension15Objects1);
-{for(var i = 0, len = gdjs.JUGARCode.GDNotJamThirdDimension15Objects1.length ;i < len;++i) {
-    gdjs.JUGARCode.GDNotJamThirdDimension15Objects1[i].getBehavior("Effect").enableEffect("Effect", true);
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
 }
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "MOVIL NO DISPONIBLE", false);
 }
-
-{ //Subevents
-gdjs.JUGARCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -560,7 +533,7 @@ gdjs.JUGARCode.GDTamborilMiniObjects2.length = 0;
 gdjs.JUGARCode.GDAdufemini2Objects1.length = 0;
 gdjs.JUGARCode.GDAdufemini2Objects2.length = 0;
 
-gdjs.JUGARCode.eventsList2(runtimeScene);
+gdjs.JUGARCode.eventsList1(runtimeScene);
 gdjs.JUGARCode.GDNotJamThirdDimension15Objects1.length = 0;
 gdjs.JUGARCode.GDNotJamThirdDimension15Objects2.length = 0;
 gdjs.JUGARCode.GDVALVERDEObjects1.length = 0;

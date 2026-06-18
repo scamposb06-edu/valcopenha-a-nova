@@ -203,13 +203,13 @@ gdjs.PERDISTECode.GDAdufemini2Objects1= [];
 gdjs.PERDISTECode.GDAdufemini2Objects2= [];
 
 
-gdjs.PERDISTECode.asyncCallback26515556 = function (runtimeScene, asyncObjectsList) {
+gdjs.PERDISTECode.asyncCallback26664260 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.PERDISTECode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(18)), false);
 }
 gdjs.PERDISTECode.localVariables.length = 0;
 }
-gdjs.PERDISTECode.idToCallbackMap.set(26515556, gdjs.PERDISTECode.asyncCallback26515556);
+gdjs.PERDISTECode.idToCallbackMap.set(26664260, gdjs.PERDISTECode.asyncCallback26664260);
 gdjs.PERDISTECode.eventsList0 = function(runtimeScene) {
 
 {
@@ -219,7 +219,7 @@ gdjs.PERDISTECode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.PERDISTECode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.PERDISTECode.asyncCallback26515556(runtimeScene, asyncObjectsList)), 26515556, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs.PERDISTECode.asyncCallback26664260(runtimeScene, asyncObjectsList)), 26664260, asyncObjectsList);
 }
 }
 
@@ -236,7 +236,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26514188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26662540);
 }
 }
 if (isConditionTrue_0) {
